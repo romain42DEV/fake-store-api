@@ -5,9 +5,14 @@
 }
 
 .card {
-    background-color: lightgrey;
+    background-color: #f3f3f3;
     padding: 20px;
+    border-radius: 20px;
     cursor: pointer;
+}
+
+.card:hover {
+   background-color: #ded2ff;
 }
 
 .flex {
@@ -29,6 +34,18 @@ h3 {
 
 .w-100 {
     width: 100%;
+}
+
+.w80 {
+    width: 80%;
+}
+
+.w70 {
+    width: 70%;
+}
+
+.w-48 {
+    width: 48%;
 }
 
 .w-30 {
