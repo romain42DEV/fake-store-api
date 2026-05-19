@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -15,6 +17,18 @@
    background-color: #ded2ff;
 }
 
+.card img {
+    height: 100px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.card h3{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+}
+
+
 .flex {
     display: flex;
     flex-wrap: wrap;
@@ -28,8 +42,10 @@
     align-items: center;
 }
 
-h3 {
-    line-height: 32px;
+
+.prix{
+    padding: 15px 10px;
+    width: fit-content;
 }
 
 .w-100 {
@@ -52,6 +68,10 @@ h3 {
     width: 30%;
 }
 
+.w-20 {
+    width: 24%;
+}
+
 .bg-black {
     background-color: black;
 }
@@ -64,8 +84,8 @@ h3 {
     padding: 10px;
 }
 
-.border-radius-10 {
-    border-radius: 10px;
+.border-radius-5 {
+    border-radius: 5px;
 }
 
 .mt-10 {

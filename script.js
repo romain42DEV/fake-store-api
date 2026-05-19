@@ -23,10 +23,9 @@
         tableauProduits.forEach(produit => {
             let produitCard = `
             <div class="card w-48 flex space-between mt-10">
-                <div class="w-30">
-                    <img src="${produit.image}" alt="products" class="w-100">
-                </div>
-
+                
+                <img src="${produit.image}" alt="products" class="w-20">
+                
                 <div class="flex space-between align-center w70">
                     <div class="w70">
                         <h3>${produit.title}</h3>
@@ -36,11 +35,9 @@
                             <i class="ph-fill ph-star"></i>
                             <i class="ph-fill ph-star"></i>
                         </p>
-
-                        <div class="w-30">
-                            <p class="bg-black white padding-10 border-radius-10">${produit.price}€</p>
-                        </div>
                     </div>
+
+                    <p class="prix w-20 bg-black white border-radius-5">${produit.price}€</p>
                 </div>
             </div>
             `
